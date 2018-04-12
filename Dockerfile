@@ -1,5 +1,6 @@
+
 FROM alpine:latest
-MAINTAINER bluebu <bluebuwang@gmail.com>
+MAINTAINER happyxiaodou <happyxiaodou@gmail.com>
 
 #------------------------------------------------------------------------------
 # Environment variables:
@@ -24,6 +25,8 @@ ENV SERVER_ADDR= \
 #------------------------------------------------------------------------------
 
 ADD rootfs /
+
+RUN chmod 777 /entrypoint.sh
 
 #------------------------------------------------------------------------------
 # Expose ports and entrypoint:
