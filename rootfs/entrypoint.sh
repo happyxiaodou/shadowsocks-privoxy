@@ -12,9 +12,9 @@ env sslocal -s $SERVER_ADDR -p $SERVER_PORT -k $PASSWORD \
 
 echo "rebuild gfwlist...."
 
-touch /etc/privoxy/config/gfwlist.action
+env touch /etc/privoxy/gfwlist.action
 
-env gfwlist2privoxy -f /etc/privoxy/config/gfwlist.action -p 127.0.0.1:${LOCAL_PORT:-7070}  -t socks5
+env gfwlist2privoxy -f /etc/privoxy/gfwlist.action -p 127.0.0.1:${LOCAL_PORT:-7070}  -t socks5
 
 echo "start privoxy...."
 
