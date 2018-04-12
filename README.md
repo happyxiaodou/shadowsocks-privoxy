@@ -6,7 +6,7 @@
 * the pac base on https://raw.github.com/gfwlist/gfwlist/master/gfwlist.txt
 * support arm cpu
 * only test on the qnap(ts-231p) 
-* [docker image]("https://hub.docker.com/r/yfxiaodou/shadowsocks-arm/")
+* [docker image](https://hub.docker.com/r/yfxiaodou/shadowsocks-arm/)
 
    
 
