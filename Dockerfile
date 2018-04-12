@@ -13,6 +13,7 @@ RUN \
   && rm /var/cache/apk/*
 
 RUN pip install shadowsocks
+RUN pip install gfwlist2privoxy
 
 ENV SERVER_ADDR= \
     SERVER_PORT=8899  \
@@ -26,7 +27,7 @@ ENV SERVER_ADDR= \
 
 ADD rootfs /
 
-RUN chmod 777 /entrypoint.sh
+RUN chmod +x /entrypoint.sh
 
 #------------------------------------------------------------------------------
 # Expose ports and entrypoint:

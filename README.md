@@ -1,11 +1,14 @@
-# shadowsocks-privoxy
+# shadowsocks-qnap-arm
 
     forked from bluebu/shadowsocks-privoxy
-
-    Add PAC that you can use Synology NAS to sync your dropbox or googledrive by CloudSync.
-    It's not global.
     
-    Add Facebook & Twitter API, so you can share your ps4 photos.
+* generate the pac file every time when restart the dock container
+* the pac base on https://raw.github.com/gfwlist/gfwlist/master/gfwlist.txt
+* support arm cpu
+* only test on the qnap(ts-231p) 
+* [docker image]("https://hub.docker.com/r/yfxiaodou/shadowsocks-arm/"")
+
+   
 
 ## NAS Run:
 
