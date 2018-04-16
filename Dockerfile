@@ -1,6 +1,6 @@
 
 FROM alpine:latest
-MAINTAINER happyxiaodou <happyxiaodou@gmail.com>
+MAINTAINER yfxiaodou <yfxiaodou@163.com>
 
 #------------------------------------------------------------------------------
 # Environment variables:
